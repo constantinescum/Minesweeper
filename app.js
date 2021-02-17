@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   //Game Over
   function gameOver(square) {
-    alert('Game Over, Bianca! 😔')
+    alert('Game Over! 😔')
     isGameOver = true;
 
     //Show all the bombs
@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
           matches++;
       }
       if (matches === noBombs) {
-        alert('Bravo, Bianca! 😘');
+        alert('You won!');
         isGameOver = true;
       }
     }
